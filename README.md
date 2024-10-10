@@ -7,8 +7,7 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Running the Application](#running-the-application)
+- [Running the Application](#run-application)
 - 
 ## Features
 - Upload a CSV file and store its data in MongoDB.
@@ -61,7 +60,7 @@ Run the following command to start the frontend:
 ```
 npm run dev
 ```
-3. Use application in browser
+### 3. Use application in browser
 Open browser and type the folllowing url to user the application:
 ```
 http://localhost:5173/
