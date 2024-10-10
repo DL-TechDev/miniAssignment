@@ -1,1 +1,68 @@
-# miniAssignment
+# Mini Assignment Project
+- This project is a Node.js application using Express and MongoDB to upload, search, and paginate CSV data.
+- The frontend is built using Svelte, and the backend controllers manage data upload and retrieval.
+- This project also include 1 unit test using Vitest for the frontend.
+
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Environment Variables](#environment-variables)
+- [Running the Application](#running-the-application)
+- 
+## Features
+- Upload a CSV file and store its data in MongoDB.
+- Fetch paginated data.
+- Search for data based on multiple fields.
+- Svelte frontend for user interaction.
+- Unit test using Vitest.
+- 
+## Requirements
+- Node.js (v18+ recommended)
+- MongoDB (local or cloud instance)
+- Powershell (to run the commands)
+- Browser (e.g. Google Chrome)
+
+## Installation
+### 1. Clone the Repository
+```
+git clone https://github.com/DL-TechDev/miniAssignment.git
+cd miniAssignment
+```
+
+### 2. Install Dependencies
+You will need to install the dependencies for both the backend and frontend.
+- open Powershell and run the following commands in the root directory:
+```
+npm install
+This will install all the required Node.js packages for both the backend and frontend.
+```
+
+### 3. Set Up MongoDB
+You will need to run a local MongoDB instance.
+--------------------------------------------------------------------
+## Run Application
+
+### 1. Start the Backend Server
+Open Powershell
+```
+cd miniAssignment/backend
+```
+Run the following command to start the backend server:
+```
+nodemon app.js
+```
+### 2. Start Frontend
+Open a second Powershell window
+```
+cd miniAssignment/frontend
+```
+Run the following command to start the frontend:
+```
+npm run dev
+```
+3. Use application in browser
+Open browser and type the folllowing url to user the application:
+```
+http://localhost:5173/
+```
