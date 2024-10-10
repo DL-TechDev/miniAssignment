@@ -8,7 +8,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Running the Application](#run-application)
-- 
+
 ## Features
 - Upload a CSV file and store its data in MongoDB.
 - Fetch paginated data.
