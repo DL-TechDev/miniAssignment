@@ -5,7 +5,7 @@
 
 ## Assumptions
 - The csv file uploaded must only contain the 5 fields such as postId, id, name, email and body.
-- The search input will search for string found in the name email and body fields 
+- The search input will search for string found in the name email and body fields.
 
 ## Table of Contents
 - [Features](#features)
