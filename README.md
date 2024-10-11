@@ -19,7 +19,7 @@
 - Search for data based on multiple fields.
 - Svelte frontend for user interaction.
 - Unit test using Vitest.
-- 
+
 ## Requirements
 - Node.js (v18+ recommended)
 - MongoDB (local or cloud instance)
