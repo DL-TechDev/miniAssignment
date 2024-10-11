@@ -37,7 +37,8 @@ exports.getData = async (req, res) => {
       totalPages: Math.ceil(totalRecords / limit),
     });
   } catch (error) {
-    res.status(500).send("Error fetching data");
+    console.error("Error fetching data:", error);
+    res.status(500).json({ message: "Error fetching data" });
   }
 };
 
@@ -63,6 +64,7 @@ exports.findData = async (req, res) => {
       totalPages: Math.ceil(totalRecords / limit),
     });
   } catch (error) {
-    res.status(500).send("Error fetching data");
+    console.error("Error fetching data:", error);
+    res.status(500).json({ message: "Error fetching data" });
   }
 };
