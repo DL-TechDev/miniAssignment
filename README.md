@@ -65,7 +65,10 @@ Run the following command to start the frontend:
 npm run dev
 ```
 ### 3. Use application in browser
-Open browser and type the folllowing url to user the application:
+1. Open browser and type the folllowing url to user the application:
 ```
 http://localhost:5173/
 ```
+2. Click on the upload button and choose the data.csv file.
+3. Click on upload button to upload.
+4. Browse the display data.
