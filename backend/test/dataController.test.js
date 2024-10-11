@@ -50,7 +50,7 @@ describe('Data Controller', () => {
 
     it("should return a 400 status if an error occurs while uploading data", async () => {
       const req = {
-        body: [{ postId: 1, id: 1, name: "John Doe", email: "john@example.com", body: "Sample body 1" }],
+        body: [{ postId: 1, id: 1, name: "Hans", email: "hans@email.com", body: "Here's a description" }],
       };
       const res = {
         status: jest.fn().mockReturnThis(),
