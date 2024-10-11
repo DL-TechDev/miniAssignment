@@ -1,7 +1,11 @@
 # Mini Assignment Project
 - This project is a Node.js application using Express and MongoDB to upload, search, and paginate CSV data.
 - The frontend is built using Svelte, and the backend controllers manage data upload and retrieval.
-- This project also include 1 unit test using Vitest for the frontend.
+- This project also include 1 unit test using Vitest for the frontend and 2 unit test using jest for backend.
+
+## Assumptions
+- The csv file uploaded must only contain the 5 fields such as postId, id, name, email and body.
+- The search input will search for string found in the name email and body fields 
 
 ## Table of Contents
 - [Features](#features)
